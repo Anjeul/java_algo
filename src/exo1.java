@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
+
 public class exo1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
 
         System.out.print("Entrer une température en C° pour la convertir en F° : ");
         while (!sc.hasNextDouble()) {

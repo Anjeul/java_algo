@@ -1,8 +1,10 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class exo2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.useLocale(Locale.US);
 
         System.out.print("Entrez le prix d'un article HT : ");
         double prixHT = sc.nextDouble();
