@@ -1,3 +1,5 @@
+package module1;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Locale;
@@ -20,7 +22,7 @@ public class exo4 {
         imc = imc.setScale(2, RoundingMode.HALF_UP);
 
         if (imc.doubleValue() < 18.5) {
-            System.out.println("Avec votre imc de  : " + imc + ", vous êtes en insuffisance pondérale.");
+            System.out.println("Avec votre imc de  : " + imc + ", vous êtes.... en insuffisance pondérale.");
         } else if (imc.doubleValue() < 24.9) {
             System.out.println("Avec votre imc de  : " + imc + ", vous avez un poids normal.");
         } else if (imc.doubleValue() < 29.9) {
