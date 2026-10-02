@@ -10,18 +10,18 @@ public class exo6 {
         int n = sc.nextInt();
 
         // à l'endroit
-/*        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             String star = "*";
             String result = star.repeat(i);
             System.out.println(result);
-        }*/
+        }
 
         // à l'envers
-/*        for (int i = n; i >= 1; i--) {
+        for (int i = n; i >= 1; i--) {
             String star = "*";
             String result = star.repeat(i);
             System.out.println(result);
-        }*/
+        }
 
         //pyramide
         for (int i = 0; i < n; i++) {
